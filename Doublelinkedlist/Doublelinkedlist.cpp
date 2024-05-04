@@ -13,5 +13,8 @@ Node* START = NULL;
 
 void addNode()
 {
-	Node *newNode = new Node(); // step 1: create a new node 
+	Node *newNode = new Node(); 
+	cout << "\nEnter ther roll number of the student: ";
+	cin >> newNode->noMhs;
+
 }
